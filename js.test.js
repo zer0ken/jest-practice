@@ -18,16 +18,16 @@ const fn = require('./fn')
 // })
 
 
-test(`makeUser('tom', 10)`, () => {
-    expect(fn.makeUser('tom', 10)).toEqual({
-        name: 'tom',
-        age: 10
-    })
-})
+// test(`makeUser('tom', 10)`, () => {
+//     expect(fn.makeUser('tom', 10)).toEqual({
+//         name: 'tom',
+//         age: 10
+//     })
+// })
 
-test(`makeUser('tom', 10)`, () => {
-    expect(fn.makeUser('tom', 10)).toStrictEqual({
-        name: 'tom',
-        age: 10
-    })
-})
+// test(`makeUser('tom', 10)`, () => {
+//     expect(fn.makeUser('tom', 10)).toStrictEqual({
+//         name: 'tom',
+//         age: 10
+//     })
+// })
